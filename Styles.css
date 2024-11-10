@@ -46,20 +46,16 @@
 
 .header__menu__link{
     font-family: var(--fuente-Play);
-    font-size:1rem;
-    font-weight: 400;
-    text-decoration: none;
-    color: var(--color-secundario);
-}
-
-.header__menu__correo{
-    font-family: var(--fuente-Play);
     font-size:16px;
     font-weight: 400;
     text-decoration: none;
     color: var(--color-secundario);
 }
 
+.header__menu__correo{
+    color: var(--color-secundario);
+    decoration
+}
 .header__menu__link:hover,
 .header__menu__correo:hover{
     color: #00ffc8;
@@ -102,8 +98,7 @@
 
 
 .foto_stephany{
-    display: flex;
-    justify-content: flex-end;
+    margin-left: auto;
     width: 300px;
 }
 
@@ -406,94 +401,3 @@
     height: 20px;
 }
 
-
-/*-------Responsivo para teléfonos------*/
-@media (max-width: 480px) {
-
-    .header__menu {
-       max-width: 480px
-    }
-    
-
-    .header__menu__link {
-       display: none;
-    }
-
-    .header__menu__correo{
-        display: block;
-    }
-
-    .presentacion {
-        flex-direction: column;
-        justify-content: center;
-        padding: 5% 3%;
-    }
-
-    .presentacion__texto__nombre {
-        font-size: 1.5rem;
-        line-height: 1.2;
-    }
-    .  .presentacion__texto__parrafo
-    font-size: 0.5rem;
-    }
-
-    .logos__imagenes{
-        justify-content: center;
-    }
-
-    .clase__foto__stephany{
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-
-    .foto_stephany {
-        width: 50%;
-        margin-top: 15px;
-    }
-
-    #sobre__mi {
-        flex-direction: column;
-        padding: 5% 3%;
-    }
-
-    .sobre__mi__titulo,
-    .titulo,
-    .formacion__titulo,
-    .titulo__hobbies,
-    .proyectos__titulo {
-        font-size: 20px;
-    }
-
-    .cuadro__item,
-    .formacion__elemento {
-        width: 30%;
-    }
-
-    .habilidades__full,
-    .hobbies__full,
-    .proyectos {
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .contacto__campo,
-    .contacto__mensaje {
-        width: 100%;
-    }
-
-    .formacion__elemento,
-    .formacion__full{
-        flex-direction: column;
-        width:auto;
-    }
-
-    .formulario__completo {
-        flex-direction: column;
-        padding: 5% 3%;
-    }
-
-    .contacto__boton {
-        width: 100%;
-    }
